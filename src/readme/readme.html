@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Harjoitustyö</title>
+    </head>
+    <style>
+        .paragraph {
+            margin: auto;
+            width: 70%;
+        }
+        .image {
+            text-align: center;
+        }
+    </style>
+    <body>
+        <div style="text-align: center;">
+            <h1>Ex Libris</h1>
+            <h3>Kirjastosovellus</h3>
+            <p>Harjoitustyö JAMKin "Web-ohjelmointi"-kurssille</p>
+            <a href="https://youtu.be/sM5xlbc6G4Y">Linkki Youtube-demovideoon</a>
+            <br />
+            <br />
+            <a href="https://student.labranet.jamk.fi/~P1356/web-ohjelmointi/harjoitustyo/src.zip">Lataa tästä tiedostot</a>
+            <br />
+            <br />
+            <a href="https://student.labranet.jamk.fi/~P1356/web-ohjelmointi/harjoitustyo/build/">Linkki sovellukseen students-palvelimella</a>
+            <p>
+                Tehnyt: <br /> 
+                Esa Tervonen <br />
+                <i>t9tees00@students.oamk.fi</i><br />
+                13.8.2020
+            </p>
+        </div>
+        <div class="paragraph">
+            <h4>Tavoite</h4>
+            <p>
+                Tavoitteena harjoitustyössä oli tehdä sovellus, johon käyttäjä voi tallentaa lukemiensa kirjojen tietoja
+                ja tarkastella dataa kaavioiden muodossa. Alla suunnitteluvaiheessa laadittu kaaviokuva sovelluksen toiminnasta.
+            </p>
+        </div>
+        <div class="image"><img src="MyLibrary.png" alt="kaavio" title="Suunnittelukaavio" /></div>
+        <div class="paragraph">
+            <h4>Toteutus</h4>
+            <p>
+                Sovellus on toteutettu React-kirjastoa hyödyntäen. Toiminnallisuudet on eritelty omiin funktiokomponentteihin ja tiedonvälitykseen
+                komponenttien välillä käytettiin useContext-hookia ja tilamuuttujien hallintaan useState-hookia. Lisäksi funktioiden
+                suoritusten ajoituksen apuna oli useEffect-hook.
+            </p>
+            <p>
+                Käyttäjien tiedot sekä tiedot kirjoista tallennetaan samaan userdata.json-tiedostoon. Kehitysvaiheessa käytettiin
+                localhost json-serveriä http-kutsuja varten. Backend-ratkaisuna lopullisessa tuotteessa voisi toimia <a href="https://expressjs.com/">express</a> / <a href="https://www.mongodb.com/">MongoDB</a> -yhdistelmä,
+                mutta backendin rakentamisen todettiin olevan tämän kurssin aihealueiden ulkopuolella. JAMKin students-palvelimella olevassa sovelluksessa
+                käyttäjätiedot tallennetaan local storageen.
+            </p>
+            <p>
+                Kirjojen tiedot haetaan <a href="https://api.finna.fi/swagger-ui/?url=%2Fapi%2Fv1%3Fswagger#!/Search/get_search">Finnan api</a>:n kautta sekä lisätietoja haetaan <a href="https://openlibrary.org/developers/api">OpenLibrary.orgin api</a>:n kautta. 
+            </p>
+        </div>
+        <div class="image"><img src="final.png" alt="lopullinen" title="Toimintakaavio" /></div>
+        <div class="paragraph">
+            <h4>Ajan käyttö</h4>
+            <p>
+                Sovelluksen tekemiseen kului aikaa arviolta noin 60 tuntia, mikä on reilusti yli suunnitellun 40 tunnin.
+                Suurin syy tekemisen hitauteen lienee tekijän kokemattomuus ohjelmoinnin saralla. Tämä kurssi on ensikosketukseni
+                javascriptiin eikä muutakaan ohjelmointitaustaa liiemmin ole. Tästä kokemattomuudesta johtuen suunnitteluvaiheessa
+                ei osattu arvioida, millä tekniikoilla tämänkaltainen sovellus kannattaisi toteuttaa ja projektin edetessä toteutustavat
+                vaihtelivat muutamaan otteeseen. Suurin viivästys muodostui, kun vaihdoin komponenttien välisen tiedonvälitysmenetelmän propseista kontekstiin. 
+                <br />
+                <br />
+                Tämä harjoitustyö toimi myös alustana React-opiskelulle ja viivästyksiä aikataulussa aiheuttikin myös pähkäilyt siitä miten saada komponentit renderöityä
+                oikea-aikaisesti.
+            </p>
+        </div>
+        <div class="paragraph">
+            <h4>Itsearviointi</h4>
+            <p>
+                Pidän lopputulosta kohtalaisen hyvänä, kun yrittää pitää mielessä kurssin tavoitteet. Suunnitellut toiminnallisuudet saatiin
+                toteutettua ja pahimmat bugit on karsittu. Virhetilanteiden käsittely jäi sovelluksessa alkeelliselle tasolle, mutta en usko 
+                sillä olevan suurelti heikentävää vaikutusta kurssiarviointiin.
+                <br />
+                <br />
+                Ehdotan harjoitustyöstä arvosanaa <b>4,5/5</b>
+            </p>
+        </div>
+        <br />
+        <br />
+        <div class="paragraph"><p>Koska demovideolla ei näy yhtään kansikuvaa, niin tässä kaappaus kirjainfosta, jossa näkyy kansikuva</p>
+            <img src="result_coverimg.png" title="Hakutulos" style="width: 95%;"/></div>
+    </body>
+</html>

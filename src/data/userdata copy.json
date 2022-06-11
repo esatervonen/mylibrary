@@ -1,0 +1,134 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Esa",
+      "books": [
+        {
+          "id": "heili.542492",
+          "title": "Liima",
+          "author": "Welsh, Irvine",
+          "year": "2002",
+          "pages": 592,
+          "sDate": "2019-12-30T00:00:00.000Z",
+          "eDate": "2020-01-05T00:00:00.000Z"
+        },
+        {
+          "id": "anders.51863",
+          "title": "Imago",
+          "author": "Butler, Octavia E.",
+          "year": "1992",
+          "pages": 286,
+          "sDate": "2020-01-06T00:00:00.000Z",
+          "eDate": "2020-01-27T00:00:00.000Z"
+        },
+        {
+          "id": "anders.51728",
+          "title": "Aamunkoitto",
+          "author": "Butler, Octavia E.",
+          "year": "1990",
+          "pages": 299,
+          "sDate": "2020-01-16T00:00:00.000Z",
+          "eDate": "2020-01-28T00:00:00.000Z"
+        },
+        {
+          "id": "heili.423984",
+          "title": "Portnoyn tauti",
+          "author": "Roth, Philip",
+          "year": "1971",
+          "pages": 268,
+          "sDate": "2020-02-03T00:00:00.000Z",
+          "eDate": "2020-02-07T00:00:00.000Z"
+        },
+        {
+          "id": "anders.1395408",
+          "title": "Death",
+          "author": "Gaiman, Neil",
+          "year": "2014",
+          "pages": 322,
+          "sDate": "2020-03-02T00:00:00.000Z",
+          "eDate": "2020-03-19T00:00:00.000Z"
+        }
+      ]
+    }
+    ,
+    {
+      "id": 2,
+      "name": "Vesa",
+      "books": [
+        {
+          "id": "heili.515196",
+          "title": "Kuolema",
+          "author": "Tolstoi, Leo",
+          "year": "1905",
+          "pages": null,
+          "sDate": "2020-01-01T00:00:00.000Z",
+          "eDate": "2020-02-01T00:00:00.000Z"
+        },
+        {
+          "id": "anders.1395408",
+          "title": "Death",
+          "author": "Gaiman, Neil",
+          "year": "2014",
+          "pages": 322,
+          "sDate": "2020-03-02T00:00:00.000Z",
+          "eDate": "2020-03-19T00:00:00.000Z"
+        },
+        {
+          "id": "blanka.19808",
+          "title": "Död",
+          "author": "Wirsén, Stina",
+          "year": "2016",
+          "pages": 17,
+          "sDate": "2020-04-06T00:00:00.000Z",
+          "eDate": "2020-04-18T00:00:00.000Z"
+        },
+        {
+          "id": "helmet.2358170",
+          "title": "Die Toten : Roman",
+          "author": "Kracht, Christian",
+          "year": "2018",
+          "pages": 211,
+          "sDate": "2020-05-07T00:00:00.000Z",
+          "eDate": "2020-05-14T00:00:00.000Z"
+        },
+        {
+          "id": "kuopio.81228",
+          "title": "Kuollut",
+          "author": "Joyce, James",
+          "year": "1957",
+          "pages": "",
+          "sDate": "2020-05-18T00:00:00.000Z",
+          "eDate": "2020-05-25T00:00:00.000Z"
+        },
+        {
+          "id": "helmet.2131462",
+          "title": "Mortality",
+          "author": "Hitchens, Christopher",
+          "year": "2012",
+          "pages": null,
+          "sDate": "2020-05-25T00:00:00.000Z",
+          "eDate": "2020-05-30T00:00:00.000Z"
+        },
+        {
+          "id": "oula.792399",
+          "title": "Syvä hengitys",
+          "author": "Enna, Bruno",
+          "year": "2000",
+          "pages": 74,
+          "sDate": "2019-12-30T00:00:00.000Z",
+          "eDate": "2020-01-17T00:00:00.000Z"
+        },
+        {
+          "id": "fikka.4216954",
+          "title": "Hyinen hauta",
+          "author": "Auer, Ilkka",
+          "year": "2011",
+          "pages": 1,
+          "sDate": "2020-06-02T00:00:00.000Z",
+          "eDate": "2020-06-20T00:00:00.000Z"
+        }
+      ]
+    }
+  ]
+}
